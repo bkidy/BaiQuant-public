@@ -1,0 +1,59 @@
+[data]
+root = "./data"
+
+[universe]
+min_listed_days = 180
+min_amount = 1000
+exclude_st = true
+exclude_paused = true
+exclude_limit_up = false
+exclude_limit_down = true
+
+[portfolio]
+max_positions = 5
+min_factor_hits = 3
+
+[[factors]]
+name = "momentum_20d"
+weight = 1.2
+direction = 1
+
+[[factors]]
+name = "volume_score"
+weight = 0.6
+direction = 1
+
+[[factors]]
+name = "week_52_high"
+weight = 0.5
+direction = 1
+
+[[factors]]
+name = "trend_pullback"
+weight = 0.7
+direction = 1
+
+[[factors]]
+name = "quality"
+weight = 1.0
+direction = 1
+
+[[factors]]
+name = "growth"
+weight = 0.8
+direction = 1
+
+[[factors]]
+name = "value"
+weight = 0.5
+direction = 1
+
+[[factors]]
+name = "volatility_20d"
+weight = 0.4
+direction = -1
+
+[[factors]]
+name = "buyback_event"
+weight = 0.5
+direction = 1
