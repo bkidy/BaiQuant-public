@@ -7,7 +7,7 @@ for after-close stock selection, backtesting, paper replay, and manual trading
 review.
 
 **Case study:** [I gave an A-share account to Codex and doubled it in one
-month (Chinese)](https://glbai.com/posts/codex-built-a-share-quant-strategy/)
+month](https://glbai.com/en/posts/codex-built-a-share-quant-strategy/)
 
 > BaiQuant turns a daily A-share research routine into reproducible code: pull
 > local data, rank candidates, review risk, record real fills, and learn from
