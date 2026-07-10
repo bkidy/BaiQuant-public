@@ -4,6 +4,9 @@
 
 这是我准备写的 **Codex 系列文章第一篇**，也是 BaiQuant 这个项目的起点。
 
+完整复盘：[Codex 系列 01：我把一个 A
+股账户交给 AI，一个月后收益翻倍](https://glbai.com/posts/codex-built-a-share-quant-strategy/)
+
 我想探索一个很具体的问题：
 
 > 当我自己并不真正懂股票，也说不清每一只股票上涨或下跌背后的产业逻辑时，Codex
